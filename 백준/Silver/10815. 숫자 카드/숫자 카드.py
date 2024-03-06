@@ -1,10 +1,8 @@
-import sys
+n = int(input())
+cards = set(map(int, input().split()))
 
-
-n = int(sys.stdin.readline())
-cards = set(map(int, sys.stdin.readline().split()))
-m = int(sys.stdin.readline())
-numbers = list(map(int, sys.stdin.readline().split()))
+m = int(input())
+numbers = list(map(int, input().split()))
 
 for i in numbers:
     if i in cards:
