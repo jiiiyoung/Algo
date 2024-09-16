@@ -1,0 +1,15 @@
+class Solution {
+    public String solution(String[] seoul) {
+        
+        int idx = -1;
+        for(int i = 0; i < seoul.length ; i++){
+            if(seoul[i].contains("Kim")){
+                idx = i;
+                break;
+            }
+        }
+        
+        
+        return "김서방은 " + idx +"에 있다";
+    }
+}
