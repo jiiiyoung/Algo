@@ -1,18 +1,18 @@
 import java.util.Scanner;
+import java.io.*;
 
 public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        
-        // 삼항연산자 활용
-        System.out.println(n + " is " + ((n % 2==0) ? "even" : "odd"));
-        /*
+        StringBuilder result = new StringBuilder();
+        result.append(n);
         if(n % 2 == 0){
-            System.out.println(n + " is even");
+            result.append(" is even");
         }else{
-            System.out.println(n + " is odd");
+            result.append(" is odd");
         }
-        */
+        
+        System.out.println(result.toString());
     }
 }
