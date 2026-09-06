@@ -4,7 +4,7 @@ class Solution {
         분자 = (numer1 * denom2 + numer2 * denom1) / gcd
         분모 = denom1 * denom2 / gcd
         
-        만약 분모의 최대공약수가 있다면 해당 값으로 나눠줘야 한다.        
+        만약 분자, 분모의 최대공약수가 있다면 해당 값으로 나눠줘야 한다.        
         -> 최대공약수 구하는 방법.
         */
         int numer = (numer1 * denom2 + numer2 * denom1);
